@@ -1,0 +1,16 @@
+{
+    "rules": {
+        "quotemark": [
+            true,
+            "double"
+        ],
+        "semicolon": true
+    },
+    "jsRules": {
+        "quotemark": [
+            true,
+            "double"
+        ],
+        "semicolon": true
+    }
+}

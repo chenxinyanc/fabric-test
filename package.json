@@ -13,6 +13,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "@uifabric/fluent-theme": "^0.16.9",
     "office-ui-fabric-react": "^6.182.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"

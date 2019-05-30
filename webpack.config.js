@@ -17,6 +17,7 @@ module.exports = {
     contentBase: distPath,
     watchContentBase: true
   },
+  devtool: "source-map",
   resolve: {
     extensions: [".ts", ".tsx", ".js", ".json"]
   },

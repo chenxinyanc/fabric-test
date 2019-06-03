@@ -2,13 +2,15 @@ import * as React from "react";
 import { DefaultButton } from "office-ui-fabric-react/lib/Button";
 import { Customizer } from "office-ui-fabric-react";
 import { FluentCustomizations } from "@uifabric/fluent-theme";
-import { ContextualMenuItemType } from 'office-ui-fabric-react/lib/ContextualMenu';
+import { MessageBar, MessageBarType } from "office-ui-fabric-react/lib/MessageBar";
+import { ContextualMenuItemType } from "office-ui-fabric-react/lib/ContextualMenu";
 
 export class App extends React.Component {
 
     public render() {
         return (<Customizer {...FluentCustomizations}>
             <h1>Test!</h1>
+            <MessageBar messageBarType={MessageBarType.info}>This is a test message bar.</MessageBar>
             <DefaultButton text="Show menu" menuProps={{
                 shouldFocusOnMount: true, items: [
                     { key: "header", text: "ContextualMenu", itemType: ContextualMenuItemType.Header },
